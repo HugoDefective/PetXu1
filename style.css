@@ -1,48 +1,69 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-   
+    
     
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
 .topo{
+    
+    top: 150px;
     width: 100%;
-    height: 60px;
+    height: 90px;
     display: flex;
     justify-content: center;
-    background-color:  rgba(65, 65, 65, 0.699);
+    background-color:   rgba(255, 255, 255, 0.253);
     
+}
+.menu{
+    padding: 30px;
 }
 .logo{
     z-index: 1;
     position: absolute;
-    top: 5px;
+    top: -120px;
     width: 500px;
     height: 400px;
-    left: -50px;
-   
+    left: 20px;
+
 }
+.logo:hover{
+    padding: 10px;
+  
+}
+
 .menu ul{
+    position: absolute;
+    left: 45%;
+    top: 30px;
     display: flex;
-    justify-content: space-around;
-    width: 450px;
+    justify-content: space-evenly;
+    width: 600px;
     list-style: none;
+    
   
     
     }
 
 .menu li{
+    border: solid rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
     padding: 10px;
     height: 40px;
-    width: 100%;
+    width: 150px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color:  rgba(0, 0, 0, 0.699);
     font-size: 25px;
     font-family: comfortaa;
 }
 .menu li:hover{
     transition: 0.5s;
     color: white;
-    background-color: rgba(228, 149, 31, 0.897);
+    background-color: rgb(8, 233, 177);
    
     
 }
@@ -67,29 +88,31 @@
 }
 .Fundo{
     width: 100%;
-    height: 950px;
+    height:1015px;
     position: absolute;
     z-index: -1;
 }
 .rodape{
-    padding-top: 20px;
-    background-color: rgba(34, 32, 32, 0.678);
+    padding-top: 15px;
+    position: relative;
+    background-color:  rgba(73, 73, 73, 0.836);
     width: 100%;
-    height: 95px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
+    
 
 }
 .rodape ul{
     height: 100px;
+    
 }
 .rodape li{
-    color: white;
-    list-style: none;
+    color:  rgb(255, 253, 253);
+    
 }
 .button{
-    background-color: rgba(233, 71, 193, 0.76);
-    border: hidden;
+    background-color: rgba(8, 233, 177, 0.61);
     border-radius: 10px;
     width: 300px;
     height: 40px;
@@ -100,27 +123,52 @@
     
 }
 .button:hover{
-    background-color: rgb(233, 71, 193);
+    background-color:rgb(8, 233, 177);
     border: solid white 2px;
 }
-.whats{
+#whats{
     width: 50px;
     height: 50px;
     
 }
+#facebook{
+    width: 47px;
+    height: 47px;
+}
+#telefone{
+    width: 50px;
+    height: 50px;
+
+}
 .Endereço{
-    margin: 10px;
-    color: rgb(172, 171, 171);
+   display: flex;
+   flex-direction: row;
+    color: rgb(255, 255, 255);
     font-size: 10px;
+    margin: 10px;
         
+}
+.Endereço img{
+    width: 30px;
+    height: 30px;
 }
 
 .caixatexto{
     background-color: rgba(255, 255, 255, 0.253);
     padding-top: 100px;
     position: relative;
-    height: 650px;
+    height: 710px;
 }
+.redes{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    width: 250px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 50px;
+    }
+
 @font-face{
     src: url("./fontes/COMFORTAA.REGULAR.TTF");
     font-family: "comfortaa"
