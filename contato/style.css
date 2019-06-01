@@ -181,6 +181,7 @@ body{
         margin: 5px;
     }
     input{
+    
         font-family: comfortaa;
         font-size: 15px;
         width: 350px;
@@ -192,7 +193,18 @@ body{
         
     }
 @media (max-width:800px){
-.rodape ul{
+.caixalogin{
+        width: 350px;
+        height: 80px;
+        left: 5%;
+        top: 600px;
+}
+.sign{
+    top: 15px;
+    left: 250px;
+ }
+    
+    .rodape ul{
     display: none;
     }
 .Endereço{
@@ -213,7 +225,7 @@ body{
 }
 .texto p{
     position: absolute;
-    top: -35px;
+    top: -100px;
 
 }
 .linhaendereço{
@@ -243,6 +255,7 @@ body{
 }
 .sombra{
     top:170px;
+    height: 400px;
 
 }
 
