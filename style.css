@@ -20,6 +20,7 @@ body{
     
 }
 .menu{
+
     padding: 30px;
 }
 .logo{
@@ -60,12 +61,20 @@ body{
     font-size: 25px;
     font-family: comfortaa;
 }
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
 .menu li:hover{
     transition: 0.5s;
     color: white;
     background-color: rgb(8, 233, 177);
-   
-    
+
+}
+.menu li a:hover{
+    color:white;
 }
 .texto{
     padding-top: 40px;
@@ -143,10 +152,13 @@ body{
 .Endereço{
    display: flex;
    flex-direction: row;
-    color: rgb(255, 255, 255);
-    font-size: 10px;
-    margin: 10px;
+   color: rgb(255, 255, 255);
+   font-size: 10px;
+   margin: 10px;
         
+}
+.linhaendereço{
+    flex-direction: column;
 }
 .Endereço img{
     width: 30px;
@@ -168,6 +180,57 @@ body{
     padding-top: 10px;
     padding-left: 50px;
     }
+    .rodape ul li a{
+        text-decoration: none;
+        color: white;
+    }
+@media (max-width:800px){
+.rodape ul{
+    display: none;
+    }
+.Endereço{
+    position: absolute;
+
+}
+body{
+    width: 480px;
+    height: 640px;
+}
+.texto #some{
+    display: none;
+
+}
+.texto h1{
+    top: 200px;
+    position: absolute;
+}
+.texto p{
+    position: absolute;
+    top: 400px;
+
+}
+.linhaendereço{
+    display: flex;
+    flex-direction: row;
+}
+.Endereço{
+    position: absolute;
+    top: 80px;
+    padding-top: 40px;
+}
+.rodape{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-top: 20px;
+    
+}
+
+
+ }
+
 
 @font-face{
     src: url("./fontes/COMFORTAA.REGULAR.TTF");

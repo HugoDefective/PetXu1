@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.sombra{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    z-index: 1;
+    
+}
+.logo{
+    z-index: 2;
+    position: absolute;
+    top: -120px;
+    width: 500px;
+    height: 400px;
+    left: 20px;
+ }
+ 
+.Fundo{
+    width: 100%;
+    height:1015px;
+    position: absolute;
+    z-index: -1;
+}
+.rodape{
+    padding-top: 15px;
+    background-color:  rgba(73, 73, 73, 0.897);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 900px;    
+
+}
+.sombra{
+    background-color: rgba(255, 255, 255, 0.253);
+    width: 100%;
+    height: 500px;
+    top:300px;
+    
+
+}
+.texto{
+    top: 40%;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+.texto p{
+    font-family:comfortaa;
+    font-size: 30px;
+    text-align: center;
+}
+.rodape ul{
+    height: 100px;
+    
+}
+.rodape li{
+    color:  rgb(255, 253, 253);
+    
+}
+
+#whats{
+    width: 50px;
+    height: 50px;
+    
+}
+#facebook{
+    width: 47px;
+    height: 47px;
+}
+#telefone{
+    width: 50px;
+    height: 50px;
+
+}
+.Endereço{
+   display: flex;
+   flex-direction: row;
+   color: rgb(255, 255, 255);
+   font-size: 10px;
+   margin: 10px;
+        
+}
+.linhaendereço{
+    flex-direction: column;
+}
+.Endereço img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+    padding-top: 10px;
+}
+    .rodape ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    #whats{
+        width: 50px;
+        height: 50px;
+        
+    }
+    #facebook{
+        width: 47px;
+        height: 47px;
+    }
+    #telefone{
+        width: 50px;
+        height: 50px;
+    }
+@media (max-width:800px){
+.rodape ul{
+    display: none;
+    }
+.Endereço{
+    position: absolute;
+
+}
+body{
+    width: 480px;
+    height: 640px;
+}
+.texto #some{
+    display: none;
+
+}
+.texto h1{
+    top: 200px;
+    position: absolute;
+}
+.texto p{
+    position: absolute;
+    top: -35px;
+
+}
+.linhaendereço{
+    display: flex;
+    flex-direction: row;
+}
+.Endereço{
+    position: absolute;
+    top: 90px;
+    padding-top: 40px;
+}
+.rodape{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-top: 20px;
+    
+}
+.redes{
+    position: absolute;
+    width: 350px;
+    left: 70px;
+    z-index: 2;
+
+}
+.sombra{
+    top:170px;
+
+}
+
+
+ }
+
+
+@font-face{
+    src: url("./fontes/COMFORTAA.REGULAR.TTF");
+    font-family: "comfortaa"
+}
+@font-face{
+    src: url("./fontes/ORATORSTD-SLANTED.OTF");
+    font-family: "ORATORSTD-SLANTED"
+}
+@font-face{
+    src: url("./fontes/ORATORSTD.OTF");
+    font-family: "ORATORSTD";
+}
+@font-face{
+    src: url("./fontes/TT0288M_.TTF");
+    font-family: "TT0288M";
+
+}
