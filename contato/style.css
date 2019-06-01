@@ -128,6 +128,69 @@ body{
         width: 50px;
         height: 50px;
     }
+    .caixalogin{
+        left: 60%;
+        top: 40px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 220px;
+        color: black;
+        border-radius: 10px;
+        background-color:white;
+        padding: 50px 40px ; 
+        z-index: 2;
+    }
+    .sign{
+        position: absolute;
+        top: 80%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+       
+       
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: comfortaa;
+    border: solid rgba(3, 3, 3, 0.568) 1px;
+    }
+    .caixalogin h1{
+        font-size: 23px;
+    
+    }
+     .sign:hover{
+    background-color:rgb(8, 233, 177);
+    border: solid rgba(2, 2, 2, 0.514) 2px;
+
+     }
+
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+    .email{
+        width: 100px;
+        margin: 5px;
+    }
+    .password{
+        margin: 5px;
+    }
+    .psw-repeat{
+        margin: 5px;
+    }
+    input{
+        font-family: comfortaa;
+        font-size: 15px;
+        width: 350px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 1px solid #909090a8;
+        
+        
+    }
 @media (max-width:800px){
 .rodape ul{
     display: none;
@@ -184,7 +247,7 @@ body{
 }
 
 
- }
+}
 
 
 @font-face{
